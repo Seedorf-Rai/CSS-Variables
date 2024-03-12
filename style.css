@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+:root{
+    --color: rgb(255, 140, 0);
+
+}
+
+.half {
+    width: 100vw;
+    height: 50vh;
+    background-color: #162D41;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.half h1 {
+    color: white;
+
+}
+
+.js {
+    color: var(--color);
+}
+
+.down {
+    height: 50vh;
+    width: 100vw;
+    background-color: var(--color);
+}
+
+img {
+    --b : 10px;
+    --l : 35%;
+    width: 30%;
+    height: 80%;
+    object-fit: cover;
+    position: relative;
+    left: var(--l);
+    top: 10%;
+    filter: blur(var(--b));
+}
